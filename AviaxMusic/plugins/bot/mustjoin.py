@@ -5,7 +5,7 @@ from AviaxMusic import app
 
 #--------------------------
 
-MUST_JOIN = "Ace_networkop"
+MUST_JOIN = "PENGUIN_X_STORE"
 #------------------------
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(app: Client, msg: Message):
